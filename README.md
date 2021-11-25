@@ -51,7 +51,7 @@ const App = () => {
       ]
     }
   ]
-  return <Bullets bulletPoints={bulletPoints} />
+  return <Bullets type='circle' ordered={false} bulletPoints={bulletPoints} />
 }
 
 export default App
