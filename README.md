@@ -12,12 +12,6 @@ npm install --save react-bullet-points
 
 ## Usage
 
-| Property  | types                                                                                   | default                                             |
-| --------- | --------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| `type`    | `Unordered list types (disc, circle, square, none), Ordered list types (1, A, a, I, i)` | `Unordered list type (disc), Ordered list type (1)` |
-| `color`   | color                                                                                   | black                                               |
-| `ordered` | boolean                                                                                 | false                                               |
-
 Unordered list
 
 ```jsx
@@ -105,6 +99,14 @@ export default App
 ```
 
 ![This is an image](/assets/img1.png)
+
+## props
+
+| Property  | types                                                                                   | default                                             |
+| --------- | --------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `type`    | `Unordered list types (disc, circle, square, none), Ordered list types (1, A, a, I, i)` | `Unordered list type (disc), Ordered list type (1)` |
+| `color`   | color                                                                                   | black                                               |
+| `ordered` | boolean                                                                                 | false                                               |
 
 ## License
 
