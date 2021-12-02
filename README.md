@@ -15,6 +15,11 @@ npm install --save react-bullet-points
 Unordered list
 
 ```jsx
+import React, { Component } from 'react'
+
+import Bullets from 'react-bullet-points'
+import 'react-bullet-points/dist/index.css'
+
 const App = () => {
   const bulletPoints = [
     {
@@ -54,11 +59,6 @@ const App = () => {
 Nested list
 
 ```jsx
-import React, { Component } from 'react'
-
-import { Bullets } from 'react-bullet-points'
-import 'react-bullet-points/dist/index.css'
-
 const App = () => {
   const bulletPoints = [
     {

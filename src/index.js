@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-export const Bullets = ({
+const Bullets = ({
   type = '',
   ordered = false,
   bulletPoints = ['Bullet point 1', 'Bullet point 2', 'Bullet point 3']
@@ -29,3 +29,4 @@ export const Bullets = ({
     </div>
   )
 }
+export default Bullets

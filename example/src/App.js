@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Bullets } from 'react-bullet-points'
+import Bullets from 'react-bullet-points'
 import 'react-bullet-points/dist/index.css'
 
 const App = () => {
@@ -46,7 +46,11 @@ const App = () => {
     },
     { string: 'item 3' }
   ]
-  return <Bullets type='I' ordered bulletPoints={bulletPoints} />
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <Bullets type='I' ordered bulletPoints={bulletPoints} />
+    </div>
+  )
 }
 
 export default App
