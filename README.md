@@ -12,6 +12,53 @@ npm install --save react-bullet-points
 
 ## Usage
 
+| Property  | default                                                                                 | type       |
+| --------- | --------------------------------------------------------------------------------------- | ---------- |
+| `type`    | `Unordered list types (disc, circle, square, none), Ordered list types (1, A, a, I, i)` | desc \| 1. |
+| `color`   | color                                                                                   | black      |
+| `ordered` | boolean                                                                                 | false      |
+
+Unordered list
+
+```jsx
+const App = () => {
+  const bulletPoints = [
+    {
+      string: 'item 1'
+    },
+    {
+      string: 'item 2'
+    },
+    { string: 'item 3', color: 'red' }
+  ]
+  return <Bullets type='square' bulletPoints={bulletPoints} />
+}
+```
+
+![This is an image](/assets/img2.png)
+
+Ordered list
+
+```jsx
+const App = () => {
+  const bulletPoints = [
+    {
+      string: 'item 1'
+    },
+    {
+      string: 'item 2',
+      color: 'green'
+    },
+    { string: 'item 3' }
+  ]
+  return <Bullets type='I' ordered bulletPoints={bulletPoints} />
+}
+```
+
+![This is an image](/assets/img3.png)
+
+Nested list
+
 ```jsx
 import React, { Component } from 'react'
 
@@ -56,6 +103,8 @@ const App = () => {
 
 export default App
 ```
+
+![This is an image](/assets/img1.png)
 
 ## License
 
