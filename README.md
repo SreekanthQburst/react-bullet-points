@@ -1,6 +1,6 @@
 # react-bullet-points
 
-> Made with create-react-library
+> Simple Bulleted list
 
 [![NPM](https://img.shields.io/npm/v/react-bullet-points.svg)](https://www.npmjs.com/package/react-bullet-points) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
